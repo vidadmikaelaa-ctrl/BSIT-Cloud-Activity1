@@ -1,35 +1,36 @@
 # Laboratory Activity 2 — Build the Cloud Infrastructure Blueprint
 
 ## Mission Overview
-This laboratory activity simulates the planning phase of a cloud deployment. As a newly onboarded cloud engineer at CloudNova Technologies, I investigated a live Linux cloud environment, identified infrastructure components, compared major cloud providers, and prepared technical documentation to guide future server deployments.
+This laboratory activity simulates the planning phase of a cloud deployment. As a newly onboarded cloud engineer at CloudNova Technologies, I investigated a live Linux cloud environment, identified infrastructure components, compared major cloud providers, and prepared technical documentation to guide future deployments.
 
 ## Objectives
-- Explain the major components of cloud infrastructure.
-- Investigate hardware and software resources in a Linux environment.
-- Differentiate compute, storage, networking, and identity resources.
-- Interpret relationships between infrastructure components.
-- Create professional technical documentation using Markdown.
-- Maintain a structured GitHub Cloud Computing Portfolio.
+- Explain the major components of cloud infrastructure
+- Investigate hardware and software resources in a Linux environment
+- Differentiate compute, storage, networking, and identity resources
+- Interpret relationships between infrastructure components
+- Create professional technical documentation using Markdown
+- Build a structured GitHub Cloud Computing Portfolio
 
 ## Cloud Infrastructure Components
-- **Compute** — processing power (CPU & RAM)
-- **Storage** — data persistence and file systems
-- **Networking** — connectivity and remote access
-- **Operating System** — software layer managing resources
+- **Compute Resources:** CPU and memory that run applications
+- **Storage Resources:** Disk space for saving data and files
+- **Networking Resources:** IP addresses and connections that link everything together
+- **Operating System:** Ubuntu 24.04.4 LTS — the foundation of the cloud server
 
 ## Tools Used
-- KillerCoda Playground (Linux terminal environment)
-- GitHub (portfolio hosting)
-- Web browser (documentation & research)
+- **KillerCoda Playground** — Linux terminal environment
+- **GitHub** — Version control and portfolio hosting
+- **Markdown** — Technical documentation formatting
+- **Diagrams.net** — Cloud architecture diagram design
 
 ## Linux Commands Executed
 ```bash
-cat /etc/os-release    # View Operating System
-uname -r               # View Kernel Version
-lscpu                  # View CPU information
-nproc                  # Count CPU cores
-free -h                # View RAM
-df -h                  # View Disk Capacity
-lsblk                  # View Mounted File Systems
-hostname               # View Hostname
-ip a                   # View IP Address
+cat /etc/os-release    # Check Operating System
+uname -r                # Check Kernel Version
+lscpu                   # Check CPU Information
+nproc                   # Check Number of CPU Cores
+free -h                 # Check RAM
+df -h                   # Check Disk Capacity
+lsblk                   # Check Mounted File Systems
+hostname                # Check Server Name
+ip a                    # Check IP Address
