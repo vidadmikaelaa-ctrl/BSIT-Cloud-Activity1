@@ -1,35 +1,35 @@
-# Cloud Infrastructure Components Analysis
+# Cloud Infrastructure Components
 
 ## 1. Compute Resources
-**Purpose:** Compute resources provide processing power — CPU and memory — to run applications and workloads.
+**Purpose:** Compute resources are the processing power and memory that run applications and perform calculations. They act as the "brain" of cloud infrastructure.
 
-**Importance:** Compute is the "brain" of any cloud deployment. Without compute, no applications or services can run.
+**Importance in Cloud Computing:** Without compute resources, nothing can run. Cloud providers offer virtual machines and containers so businesses can scale processing power up or down as needed, without buying physical servers.
 
-**Relation to KillerCoda:** The Linux server includes a specific CPU model, cores, and allocated RAM — representing virtual compute capacity.
+**In KillerCoda Linux Environment:** The CPU model (Intel Xeon E312xx), 1 CPU core, and 1.9Gi RAM are the compute resources that power this Linux server.
 
 ---
 
 ## 2. Storage Resources
-**Purpose:** Storage resources store and retain data, files, and applications persistently.
+**Purpose:** Storage resources store files, databases, backups, and any data that needs to be saved.
 
-**Importance:** Data must be saved reliably. Cloud storage offers scalability, redundancy, and durability.
+**Importance in Cloud Computing:** Cloud storage provides unlimited scalability and reliability. Data is stored across multiple servers so it is safe even if one fails. You pay only for what you use.
 
-**Relation to KillerCoda:** The server has visible disk capacity and mounted file systems — showing how storage is partitioned.
+**In KillerCoda Linux Environment:** The 19G disk capacity and mounted file systems `/`, `/boot`, and `/boot/efi` provide storage space for the operating system and files.
 
 ---
 
 ## 3. Networking Resources
-**Purpose:** Networking resources enable communication — connecting the server to users, internet, and other resources.
+**Purpose:** Networking resources connect servers, users, and services together so they can communicate.
 
-**Importance:** Cloud services must be reachable remotely. Networking connects all infrastructure components together.
+**Importance in Cloud Computing:** Networking allows you to access your cloud resources from anywhere in the world. It also connects different cloud services to each other.
 
-**Relation to KillerCoda:** The server has an IP address and network interface — allowing browser access from anywhere.
+**In KillerCoda Linux Environment:** The IP address `172.30.1.2` and loopback address `127.0.0.1` are the networking resources that identify and connect this Linux server.
 
 ---
 
 ## 4. Operating System
-**Purpose:** The OS manages hardware resources and provides common services for programs.
+**Purpose:** The Operating System manages hardware, runs programs, and provides an interface between the user and the machine.
 
-**Importance:** The OS is the foundation — Linux powers nearly all cloud servers worldwide due to stability, security, and performance.
+**Importance in Cloud Computing:** The OS is the foundation of every cloud server. Linux is the most common OS in the cloud because it is fast, secure, and free.
 
-**Relation to KillerCoda:** The environment runs a Linux distribution — matching real-world cloud infrastructure.
+**In KillerCoda Linux Environment:** Ubuntu 24.04.4 LTS with Kernel 6.8.0-136-generic is the operating system running the entire environment.
