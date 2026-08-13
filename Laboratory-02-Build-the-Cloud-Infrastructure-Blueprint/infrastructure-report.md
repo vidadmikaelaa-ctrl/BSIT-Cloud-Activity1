@@ -1,19 +1,11 @@
-# Cloud Infrastructure Assessment Report
-
-## Server Information
 | Property | Details |
 |---|---|
-| **Operating System** | *(to be filled from KillerCoda)* |
-| **Kernel Version** | *(to be filled from KillerCoda)* |
-| **CPU Model** | *(to be filled from KillerCoda)* |
-| **Number of CPU Cores** | *(to be filled from KillerCoda)* |
-| **Total RAM** | *(to be filled from KillerCoda)* |
-| **Disk Capacity** | *(to be filled from KillerCoda)* |
-| **Mounted File Systems** | *(to be filled from KillerCoda)* |
-| **Hostname** | *(to be filled from KillerCoda)* |
-| **IP Address** | *(to be filled from KillerCoda)* |
-
----
-
-## Investigation Summary
-This Linux environment demonstrates how cloud infrastructure abstracts physical hardware into usable resources.
+| **Operating System** | Ubuntu 24.04.4 LTS |
+| **Kernel Version** | 6.8.0-136-generic |
+| **CPU Model** | Intel Xeon E312xx (Sandy Bridge) |
+| **Number of CPU Cores** | 1 |
+| **Total RAM** | 1.9Gi |
+| **Disk Capacity** | 19G |
+| **Mounted File Systems** | / (root), /boot, /boot/efi |
+| **Hostname** | ubuntu |
+| **IP Address** | 172.30.1.2 / 127.0.0.1 |
