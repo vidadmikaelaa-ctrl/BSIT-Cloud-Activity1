@@ -2,6 +2,11 @@
 
 ## Linux Server Investigation
 
+### Cloud Services That Could Host This Server
+- **AWS → Amazon EC2** — Create a Linux virtual machine
+- **Azure → Azure Virtual Machines** — Create a Linux virtual machine
+- **GCP → Google Compute Engine** — Create a Linux virtual machine
+
 ### System Information from KillerCoda
 - Operating System: Ubuntu 24.04.4 LTS
 - CPU: Intel Xeon, 1 core
