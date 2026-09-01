@@ -3,10 +3,10 @@
 ## Linux Server Investigation
 
 ### System Information from KillerCoda
-- **Operating System:** Ubuntu 24.04.4 LTS
-- **CPU:** Intel Xeon, 1 core
-- **Memory:** ~1.9GiB total
-- **Disk Space:** ~191MB total
+- Operating System: Ubuntu 24.04.4 LTS
+- CPU: Intel Xeon, 1 core
+- Memory: 1.9GiB total
+- Disk Space: 191MB total
 
 ### Commands Used
 ```bash
